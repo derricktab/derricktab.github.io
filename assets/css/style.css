@@ -236,6 +236,8 @@ h1, h2, h3, h4, h5, h6 {
   /* background: url("../img/hero-bg.jpg") top right no-repeat;
   background-size: cover; */
   position: relative;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
 }
 @media (min-width: 992px) {
   #hero {
@@ -1065,4 +1067,8 @@ section {
 .h233{
   font-family: Georgia, 'Times New Roman', Times, serif;
   margin-bottom: 30px;
+}
+
+.my-img{
+  border-radius: 30px;
 }
