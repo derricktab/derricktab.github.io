@@ -1040,10 +1040,6 @@ section {
   margin: 0 0 5px 0;
 }
 
-#footer .credits {
-  font-size: 13px;
-}
-
 
 /* BACKGROUND VIDEO */
 
@@ -1064,4 +1060,9 @@ section {
   min-width: 100%;
   min-height: 100%;
   background-color: rgba(0, 0, 0, 0.57);
+}
+
+.h233{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 30px;
 }
