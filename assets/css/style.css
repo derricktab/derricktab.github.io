@@ -236,8 +236,8 @@ h1, h2, h3, h4, h5, h6 {
   /* background: url("../img/hero-bg.jpg") top right no-repeat;
   background-size: cover; */
   position: relative;
-  border-bottom-right-radius: 30px;
-  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 70px;
+  border-bottom-left-radius: 70px;
 }
 @media (min-width: 992px) {
   #hero {
@@ -452,7 +452,7 @@ section {
   width: 1px;
   height: 25px;
   transition: 0.9s;
-  background: linear-gradient(to right, black, rgb(52, 75, 81), rgb(120, 208, 243));
+  background: linear-gradient(to right, black, rgb(52, 75, 81), #5e92a0);
   border-radius: 20px;
 }
 
@@ -460,10 +460,10 @@ section {
 # Resume
 --------------------------------------------------------------*/
 .resume .resume-title {
-  font-size: 26px;
+  font-size: 30px;
   font-weight: 700;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   color: #45505b;
 }
 .resume .resume-item {
@@ -510,6 +510,7 @@ section {
   border: 2px solid #0563bb;
 }
 
+
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
@@ -552,7 +553,7 @@ section {
 }
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(20, 19, 19, 0.71);
   position: absolute;
   left: 30px;
   right: 30px;
@@ -604,23 +605,24 @@ section {
   z-index: 9994;
 }
 .portfolio .portfolio-wrap .portfolio-info h4 {
-  font-size: 20px;
-  color: #45505b;
+  font-size: 25px;
+  color: rgb(173, 239, 226);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: 600;
 }
 .portfolio .portfolio-wrap .portfolio-info p {
-  color: #45505b;
+  color: white;
   font-size: 14px;
-  text-transform: uppercase;
+  text-transform: capitalize;
   padding: 0;
-  margin: 0;
+  margin: 15px;
 }
 .portfolio .portfolio-wrap .portfolio-links {
   text-align: center;
   z-index: 4;
 }
 .portfolio .portfolio-wrap .portfolio-links a {
-  color: #45505b;
+  color: rgb(187, 187, 87);
   margin: 0 2px;
   font-size: 28px;
   display: inline-block;
@@ -1081,4 +1083,14 @@ section {
 
 .my-img{
   border-radius: 30px;
+}
+
+.portfolio-wrap img{
+  height: 350px;
+  width: 100%;
+}
+
+.d-resume{
+  width: 20%;
+  margin: auto;
 }
