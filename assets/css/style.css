@@ -551,6 +551,11 @@ section {
   z-index: 1;
   background: rgba(69, 80, 91, 0.8);
 }
+
+.portfolio-wrap{
+  border-radius: 20px;
+}
+
 .portfolio .portfolio-wrap::before {
   content: "";
   background: rgba(20, 19, 19, 0.71);
