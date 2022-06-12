@@ -236,8 +236,8 @@ h1, h2, h3, h4, h5, h6 {
   /* background: url("../img/hero-bg.jpg") top right no-repeat;
   background-size: cover; */
   position: relative;
-  border-bottom-right-radius: 70px;
-  border-bottom-left-radius: 70px;
+  border-bottom-right-radius: 40px;
+  border-bottom-left-radius: 40px;
 }
 @media (min-width: 992px) {
   #hero {
