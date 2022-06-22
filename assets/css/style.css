@@ -226,7 +226,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
 }
 .mobile-nav-active .mobile-nav-toggle {
-  color: black;
+  color: red;
   background-color: #0563bb;
 }
 
@@ -1108,7 +1108,7 @@ section {
     width: 50%;
   }
 
-  body{
-    padding: 20px !important;
+  main{
+    padding: 25px !important;
   }
 }
